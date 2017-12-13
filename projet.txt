@@ -1,1 +1,14 @@
 fichier de test
+
+description des commandes
+
+git init
+
+git config user.email "nom@ffff"
+git config user.name "nom"
+
+git add
+
+git commit -m "ma version"
+
+git help "commande"
