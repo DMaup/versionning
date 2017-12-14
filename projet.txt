@@ -29,8 +29,8 @@ git branch                                          //vision de cette branche
 
 
 
-git remote ad origin https://.......
-git push origin master
+git remote add "name" https://.......               //par défaut 'origin'
+git push "name" master                              //le même nom qu'au dessus
 
 
 
