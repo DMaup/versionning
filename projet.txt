@@ -36,5 +36,8 @@ git push origin master
 
 à ouvrir avec sourceTree            //interface graphique de lecture de git
 ou bien ungit en console sur VSCode //interface graphique de lecture de git
-retour sur master
+
+
+Bitbucket                           //autre logiciel en ligne gratuit jusqu'à 5 users
+
 
