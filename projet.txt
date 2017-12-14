@@ -29,6 +29,11 @@ git branch                                          //vision de cette branche
 
 
 
+git remote ad origin https://.......
+git push origin master
+
+
+
 à ouvrir avec sourceTree            //interface graphique de lecture de git
 ou bien ungit en console sur VSCode //interface graphique de lecture de git
 retour sur master
