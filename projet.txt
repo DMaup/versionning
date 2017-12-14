@@ -9,6 +9,9 @@ git config user.name "nom"
 
 git add .                                           //"." signifie tous fichiers
 
+git reset                                           //enlècve tous les fichiers à commiter
+git reset "nomfichier"                              //enlève le fichier spécifié des fichiers à commiter
+
 git commit -m "ma version"                          //commit le fichier spécifié avec le commentaire
 
 git help "commande"                                 //aide de la commande dans le navigateur
