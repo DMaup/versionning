@@ -7,8 +7,10 @@ git init
 git config user.email "nom@ffff"
 git config user.name "nom"
 
-git add
+git add .                           // ajout d'un fichier à versionner, "." signifie tous fichiers
 
 git commit -m "ma version"
 
-git help "commande"
+git help "commande"                 // ouvre une fenetre html d'aide de la fonction
+
+git log                             // voir la liste des versions
