@@ -7,12 +7,22 @@ git init
 git config user.email "nom@ffff"
 git config user.name "nom"
 
-git add .                           // "." signifie tous fichiers
+git add .                                           //"." signifie tous fichiers
 
-git commit -m "ma version"
+git commit -m "ma version"                          //commit le fichier spécifié avec le commentaire
 
-git help "commande"                 //
+git help "commande"                                 //aide de la commande dans le navigateur
 
-à ouvrir avec sourceTree            //interface graphique de lecture de git
-ou bien ungit en console sur VSCode //interface graphique de lecture de git
-test
+à ouvrir avec sourceTree                            //interface graphique de lecture de git
+ou bien ungit en console sur VSCode                 //interface graphique de lecture de git
+
+git checkout "#clé du commit"                       //retour dans le passé sur ce commit
+git checkout "#clé du commit" "fichier.ext"         //récupère ce fichier tel qu'il était à ce commit
+
+git revert "#clé du commit"                         //défaire un commit
+
+git branch "branchname"                             //créer une branche
+git branch                                          //vision de cette branche
+
+
+
